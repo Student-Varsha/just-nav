@@ -307,14 +307,14 @@ img
 
 {
     display: grid;
-    justify-content: center;
+   
     width:15vmax;
     margin-top: 2vh;
-    margin-left: 28vh;
-    grid-row-start: 1;
+    
+    grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
-    justify-content: center;
+ 
     
  
 }
@@ -516,10 +516,10 @@ b{
     border: 0.5px solid transparent;
     box-shadow: 0 2px 5px 1px rgba( 64,60,67,0.16);
     
-    grid-row-start: 1;
+    grid-column-start: 1;
    
     grid-row-start: 2;
-    margin-left: 10vh;
+    
 
 }
 
